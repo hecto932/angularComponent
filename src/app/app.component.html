@@ -1,3 +1,12 @@
 <h1>
   {{title}}
 </h1>
+<h2>
+  {{ nombre }}
+</h2>
+
+<div>
+  <input type="text" [(ngModel)]="nombre" />
+</div>
+
+<button (click)="eventClick()">Click me!</button>
