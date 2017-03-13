@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Hola';
   nombre = 'Javascript'
-
+  
   eventClick():void{
     this.nombre = this.nombre.toUpperCase()
     console.log('Hola estoy escuchando')
